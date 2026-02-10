@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		186927E72F3B3005000473F4 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 186927E62F3B3005000473F4 /* RealmSwift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		186927BB2F3B2EBC000473F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 186927A22F3B2EBB000473F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 186927A92F3B2EBB000473F4;
+			remoteInfo = ShoppingListApp;
+		};
+		186927C52F3B2EBC000473F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 186927A22F3B2EBB000473F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 186927A92F3B2EBB000473F4;
+			remoteInfo = ShoppingListApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		186927AA2F3B2EBB000473F4 /* ShoppingListApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShoppingListApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		186927BA2F3B2EBC000473F4 /* ShoppingListAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShoppingListAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		186927C42F3B2EBC000473F4 /* ShoppingListAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShoppingListAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		186927AC2F3B2EBB000473F4 /* ShoppingListApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ShoppingListApp;
+			sourceTree = "<group>";
+		};
+		186927BD2F3B2EBC000473F4 /* ShoppingListAppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ShoppingListAppTests;
+			sourceTree = "<group>";
+		};
+		186927C72F3B2EBC000473F4 /* ShoppingListAppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ShoppingListAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		186927A72F3B2EBB000473F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				186927E72F3B3005000473F4 /* RealmSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		186927B72F3B2EBC000473F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		186927C12F3B2EBC000473F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		186927A12F3B2EBB000473F4 = {
+			isa = PBXGroup;
+			children = (
+				186927AC2F3B2EBB000473F4 /* ShoppingListApp */,
+				186927BD2F3B2EBC000473F4 /* ShoppingListAppTests */,
+				186927C72F3B2EBC000473F4 /* ShoppingListAppUITests */,
+				186927AB2F3B2EBB000473F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		186927AB2F3B2EBB000473F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				186927AA2F3B2EBB000473F4 /* ShoppingListApp.app */,
+				186927BA2F3B2EBC000473F4 /* ShoppingListAppTests.xctest */,
+				186927C42F3B2EBC000473F4 /* ShoppingListAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		186927A92F3B2EBB000473F4 /* ShoppingListApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 186927CE2F3B2EBC000473F4 /* Build configuration list for PBXNativeTarget "ShoppingListApp" */;
+			buildPhases = (
+				186927A62F3B2EBB000473F4 /* Sources */,
+				186927A72F3B2EBB000473F4 /* Frameworks */,
+				186927A82F3B2EBB000473F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				186927AC2F3B2EBB000473F4 /* ShoppingListApp */,
+			);
+			name = ShoppingListApp;
+			packageProductDependencies = (
+				186927E62F3B3005000473F4 /* RealmSwift */,
+			);
+			productName = ShoppingListApp;
+			productReference = 186927AA2F3B2EBB000473F4 /* ShoppingListApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		186927B92F3B2EBC000473F4 /* ShoppingListAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 186927D12F3B2EBC000473F4 /* Build configuration list for PBXNativeTarget "ShoppingListAppTests" */;
+			buildPhases = (
+				186927B62F3B2EBC000473F4 /* Sources */,
+				186927B72F3B2EBC000473F4 /* Frameworks */,
+				186927B82F3B2EBC000473F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				186927BC2F3B2EBC000473F4 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				186927BD2F3B2EBC000473F4 /* ShoppingListAppTests */,
+			);
+			name = ShoppingListAppTests;
+			packageProductDependencies = (
+			);
+			productName = ShoppingListAppTests;
+			productReference = 186927BA2F3B2EBC000473F4 /* ShoppingListAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		186927C32F3B2EBC000473F4 /* ShoppingListAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 186927D42F3B2EBC000473F4 /* Build configuration list for PBXNativeTarget "ShoppingListAppUITests" */;
+			buildPhases = (
+				186927C02F3B2EBC000473F4 /* Sources */,
+				186927C12F3B2EBC000473F4 /* Frameworks */,
+				186927C22F3B2EBC000473F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				186927C62F3B2EBC000473F4 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				186927C72F3B2EBC000473F4 /* ShoppingListAppUITests */,
+			);
+			name = ShoppingListAppUITests;
+			packageProductDependencies = (
+			);
+			productName = ShoppingListAppUITests;
+			productReference = 186927C42F3B2EBC000473F4 /* ShoppingListAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		186927A22F3B2EBB000473F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					186927A92F3B2EBB000473F4 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					186927B92F3B2EBC000473F4 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 186927A92F3B2EBB000473F4;
+					};
+					186927C32F3B2EBC000473F4 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 186927A92F3B2EBB000473F4;
+					};
+				};
+			};
+			buildConfigurationList = 186927A52F3B2EBB000473F4 /* Build configuration list for PBXProject "ShoppingListApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 186927A12F3B2EBB000473F4;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				186927E32F3B3005000473F4 /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 186927AB2F3B2EBB000473F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				186927A92F3B2EBB000473F4 /* ShoppingListApp */,
+				186927B92F3B2EBC000473F4 /* ShoppingListAppTests */,
+				186927C32F3B2EBC000473F4 /* ShoppingListAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		186927A82F3B2EBB000473F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		186927B82F3B2EBC000473F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		186927C22F3B2EBC000473F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		186927A62F3B2EBB000473F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		186927B62F3B2EBC000473F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		186927C02F3B2EBC000473F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		186927BC2F3B2EBC000473F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 186927A92F3B2EBB000473F4 /* ShoppingListApp */;
+			targetProxy = 186927BB2F3B2EBC000473F4 /* PBXContainerItemProxy */;
+		};
+		186927C62F3B2EBC000473F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 186927A92F3B2EBB000473F4 /* ShoppingListApp */;
+			targetProxy = 186927C52F3B2EBC000473F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		186927CC2F3B2EBC000473F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		186927CD2F3B2EBC000473F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		186927CF2F3B2EBC000473F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ShoppingListApp/Preview Content\"";
+				DEVELOPMENT_TEAM = U5UJPJQCBC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = rishabh.ShoppingListApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		186927D02F3B2EBC000473F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ShoppingListApp/Preview Content\"";
+				DEVELOPMENT_TEAM = U5UJPJQCBC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = rishabh.ShoppingListApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		186927D22F3B2EBC000473F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U5UJPJQCBC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = rishabh.ShoppingListAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShoppingListApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ShoppingListApp";
+			};
+			name = Debug;
+		};
+		186927D32F3B2EBC000473F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U5UJPJQCBC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = rishabh.ShoppingListAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShoppingListApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ShoppingListApp";
+			};
+			name = Release;
+		};
+		186927D52F3B2EBC000473F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U5UJPJQCBC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = rishabh.ShoppingListAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ShoppingListApp;
+			};
+			name = Debug;
+		};
+		186927D62F3B2EBC000473F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U5UJPJQCBC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = rishabh.ShoppingListAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ShoppingListApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		186927A52F3B2EBB000473F4 /* Build configuration list for PBXProject "ShoppingListApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				186927CC2F3B2EBC000473F4 /* Debug */,
+				186927CD2F3B2EBC000473F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		186927CE2F3B2EBC000473F4 /* Build configuration list for PBXNativeTarget "ShoppingListApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				186927CF2F3B2EBC000473F4 /* Debug */,
+				186927D02F3B2EBC000473F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		186927D12F3B2EBC000473F4 /* Build configuration list for PBXNativeTarget "ShoppingListAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				186927D22F3B2EBC000473F4 /* Debug */,
+				186927D32F3B2EBC000473F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		186927D42F3B2EBC000473F4 /* Build configuration list for PBXNativeTarget "ShoppingListAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				186927D52F3B2EBC000473F4 /* Debug */,
+				186927D62F3B2EBC000473F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		186927E32F3B3005000473F4 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		186927E62F3B3005000473F4 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 186927E32F3B3005000473F4 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 186927A22F3B2EBB000473F4 /* Project object */;
+}
