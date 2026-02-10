@@ -86,3 +86,11 @@ Unit tests are included for ShoppingViewModel
 - Clean architecture ensures separation of concerns and testability.
 
 - Fully functional offline.
+
+**Screenshot of Running App:**
+<img width="429" height="867" alt="Screenshot 2026-02-10 at 5 46 33 PM" src="https://github.com/user-attachments/assets/ef167a23-6974-4ba0-af7b-a528d10214a9" />
+<img width="424" height="858" alt="Screenshot 2026-02-10 at 5 46 40 PM" src="https://github.com/user-attachments/assets/c51be4bd-e938-4a59-a9fd-82e70256e473" />
+<img width="413" height="859" alt="Screenshot 2026-02-10 at 5 46 52 PM" src="https://github.com/user-attachments/assets/f0334505-5e58-4b59-bf66-825a35fdf563" />
+<img width="444" height="864" alt="Screenshot 2026-02-10 at 5 47 04 PM" src="https://github.com/user-attachments/assets/f033e66e-0270-4d15-bda6-ee5b095004bd" />
+<img width="428" height="862" alt="Screenshot 2026-02-10 at 5 47 13 PM" src="https://github.com/user-attachments/assets/7b7a92bc-f09a-4bf3-b25f-677bafcbc39c" />
+
