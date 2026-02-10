@@ -113,4 +113,19 @@ final class ShoppingViewModelTests: XCTestCase {
         XCTAssertEqual(grouped[.milk]?.count, 2)
         XCTAssertEqual(grouped[.breads]?.count, 1)
     }
+    
+    func testDeleteNonExistentItemDoesNothing() {
+        let fakeID = UUID()
+        viewModel.deleteItem(ShoppingItem(id: fakeID, name: "Fake", category: .milk, isPurchased: false))
+
+        // List should still be empty
+        XCTAssertTrue(viewModel.items.isEmpty)
+    }
+    
+    func testAddItemWithWhitespaceDoesNothing() {
+        viewModel.itemName = "   " // only spaces
+        viewModel.addItem()
+
+        XCTAssertTrue(viewModel.items.isEmpty, "Adding item with only whitespace should be ignored")
+    }
 }

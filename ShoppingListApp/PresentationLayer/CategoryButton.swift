@@ -12,14 +12,16 @@ struct CategoryButton: View {
     let action: () -> Void
 
     var body: some View {
+        let uiModel = CategoryUIMapper.map(category)
+
         Button(action: action) {
             VStack {
-                Text(category.icon).font(.title2)
-                Text(category.rawValue.prefix(6)).font(.system(size: 10))
+                Text(uiModel.icon).font(.title2)
+                Text(uiModel.displayName).font(.system(size: 10))
             }
             .frame(width: 60, height: 70)
-            .background(isSelected ? Color.blue : Color.red.opacity(0.05))
-            .foregroundColor(isSelected ? .white : .red)
+            .background(isSelected ? uiModel.color : Color.gray.opacity(0.2))
+            .foregroundColor(isSelected ? .white : .primary)
             .cornerRadius(10)
         }
     }

@@ -20,7 +20,7 @@ final class MockShoppingUseCase: ShoppingUseCaseProtocol {
         items.append(item)
     }
 
-    func updateItem(_ item: ShoppingItem) {
+    func updateItem(item: ShoppingItem) {
         if let index = items.firstIndex(where: { $0.id == item.id }) {
             items[index] = item
         }

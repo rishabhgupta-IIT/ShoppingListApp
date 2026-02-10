@@ -19,14 +19,20 @@ final class ShoppingViewModel: ObservableObject {
         self.useCase = useCase
         loadItems()
     }
+    
+    var isAddButtonEnabled: Bool {
+        !itemName.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty
+    }
 
     func loadItems() {
         items = useCase.fetchItems()
     }
 
     func addItem() {
-        guard !itemName.isEmpty else { return }
-        useCase.addItem(name: itemName, category: selectedCategory)
+        let trimmedName = itemName.trimmingCharacters(in: .whitespacesAndNewlines)
+        guard !trimmedName.isEmpty else { return }
+        
+        useCase.addItem(name: trimmedName, category: selectedCategory)
         itemName = ""
         loadItems()
     }

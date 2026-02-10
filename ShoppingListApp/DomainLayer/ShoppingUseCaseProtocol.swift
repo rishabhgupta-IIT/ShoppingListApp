@@ -12,4 +12,3 @@ protocol ShoppingUseCaseProtocol {
     func updateItem(item: ShoppingItem)
     func deleteItem(id: UUID)
 }
-

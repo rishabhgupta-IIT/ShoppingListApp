@@ -11,6 +11,8 @@ struct GroceryListView: View {
     @State private var editingItem: ShoppingItem? = nil
     @State private var editedName: String = ""
     @State private var editedCategory: GroceryCategory = .milk
+    
+    // TODO: start loading the item from here
 
     var body: some View {
         ScrollView {
@@ -60,10 +62,11 @@ struct GroceryListView: View {
                             Label("Add Item", systemImage: "plus")
                                 .frame(maxWidth: .infinity)
                                 .padding()
-                                .background(Color(.systemGray2))
+                                .background(viewModel.isAddButtonEnabled ? Color.green : Color.gray)
                                 .foregroundColor(.white)
                                 .cornerRadius(10)
                         }
+                        .disabled(viewModel.itemName.isEmpty)
                     }
                     .padding([.horizontal, .bottom])
                 }

@@ -9,6 +9,7 @@ import SwiftUI
 
 @main
 struct ShoppingListAppApp: App {
+    // TODO: Need to change this
     let viewModel: ShoppingViewModel
 
     init() {
