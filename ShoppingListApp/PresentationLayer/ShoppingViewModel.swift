@@ -17,7 +17,6 @@ final class ShoppingViewModel: ObservableObject {
 
     init(useCase: ShoppingUseCaseProtocol) {
         self.useCase = useCase
-        loadItems()
     }
     
     var isAddButtonEnabled: Bool {

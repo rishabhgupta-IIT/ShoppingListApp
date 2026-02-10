@@ -12,8 +12,6 @@ struct GroceryListView: View {
     @State private var editedName: String = ""
     @State private var editedCategory: GroceryCategory = .milk
     
-    // TODO: start loading the item from here
-
     var body: some View {
         ScrollView {
             VStack(spacing: 20) {
@@ -154,6 +152,9 @@ struct GroceryListView: View {
                     .padding()
                 }
             }
+        }
+        .onAppear {
+            viewModel.loadItems()
         }
         .background(Color(.systemGray6).ignoresSafeArea())
         .sheet(item: $editingItem) { item in

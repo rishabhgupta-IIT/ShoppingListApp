@@ -9,19 +9,13 @@ import SwiftUI
 
 @main
 struct ShoppingListAppApp: App {
-    // TODO: Need to change this
-    let viewModel: ShoppingViewModel
-
-    init() {
-        let repository = ShoppingRepository()
-        let useCase = ShoppingUseCase(repository: repository)
-        self.viewModel = ShoppingViewModel(useCase: useCase)
-    }
-
     var body: some Scene {
         WindowGroup {
-            GroceryListView(viewModel: viewModel)
+            let repository = ShoppingRepository()
+            let useCase = ShoppingUseCase(repository: repository)
+            GroceryListView(viewModel: ShoppingViewModel(useCase: useCase))
         }
     }
 }
+
 
